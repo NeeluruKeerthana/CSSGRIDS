@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+<style>
+    .wrapper{
+        display: grid;
+        grid-template-columns: 30% 40% 30%;
+        grid-row-gap: 0.5em;
+    }
+    .wrapper > div{
+        background:lightblue;
+        padding:1em;
+    }
+    .wrapper >div:nth-child(odd){
+        background: cornflowerblue;
+
+    }
+    
+</style>
+</head>
+<body>
+    <div class="wrapper">
+        <div>
+        Grid Layout is a new layout model for CSS that has powerful abilities 
+        to control the sizing and positioning of boxes and their contents.
+        Unlike Flexible Box Layout, which is single-axis–oriented, 
+        grid Layout is optimized for 2-dimensional layouts: those in
+        which alignment of content is desired in both dimensions.
+        In addition, due to its ability to explicitly position items 
+        in the grid, Grid Layout allows dramatic transformations in 
+        visual layout structure without requiring corresponding markup 
+        changes. By combining media queries with the CSS properties that 
+        control layout of the grid container and its children, authors can adapt 
+        their layout to changes in device form factors, orientation, and available 
+        space, while preserving a more ideal semantic structuring of their content across presentations.
+   
+    </div>
+    <div >
+        In addition, due to its ability to explicitly position items 
+        in the grid, Grid Layout allows dramatic transformations in 
+        visual layout structure without requiring corresponding markup 
+        changes. By combining media queries with the CSS properties that 
+        control layout of the grid container and its children, authors can adapt 
+        their layout to changes in device form factors, orientation, and available 
+        space, while preserving a more ideal semantic structuring of their content across presentations.
+   
+    </div>
+    <div>
+        Although many layouts can be expressed with either Grid or Flexbox, they each have their
+        specialties. Grid enforces 2-dimensional alignment, uses a top-down approach to layout, 
+        allows explicit overlapping of items, and has more powerful spanning capabilities. Flexbox 
+        focuses on space distribution within an axis, uses a simpler bottom-up approach to layout,
+        can use a content-size–based line-wrapping system to control its secondary axis, and relies 
+        on the underlying markup hierarchy to build more complex layouts. It is expected that both will
+        be valuable and complementary tools for CSS authors.
+    </div>
+    <div>
+        <h4>Background and Motivation</h4>
+        As websites evolved from simple documents into complex, interactive applications, techniques 
+        for document layout, e.g. floats, were not necessarily well suited for application layout.
+        By using a combination of tables, JavaScript, or careful measurements on floated elements,
+        authors discovered workarounds to achieve desired layouts. Layouts that adapted to the available
+        space were often brittle and resulted in counter-intuitive behavior as space became constrained.
+        As an alternative, authors of many web applications opted for a fixed layout that cannot take advantage
+        of changes in the available rendering space on a screen.
+    </div>
+    <div>
+        The capabilities of grid layout address these problems. It provides a mechanism for authors to divide available
+        space for layout into columns and rows using a set of predictable sizing behaviors. Authors can then precisely 
+        position and size the building block elements of their application into the grid areas defined by the intersections 
+        of these columns and rows. The following examples illustrate the adaptive capabilities of grid layout, and how it allows a cleaner
+        separation of content and style.
+    </div>
+    <div>
+        <h4>Adapting Layouts to Available Space</h4>
+        Grid layout can be used to intelligently resize elements within a webpage. The adjacent figures
+         represent a game with five major
+         components in the layout: the game title, stats area, game board, score area, and control area. 
+    </div>
+</div>
+</body>
+</html>
